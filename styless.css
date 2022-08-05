@@ -1,0 +1,228 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;1,100&family=Nanum+Gothic&display=swap');
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+    font-size: 25px;
+    color: rgb(211, 104, 104);
+    /* font-family:  'Times New Roman', */
+    margin: 1.5rem;
+}
+ul{
+    list-style-type: none;
+    float: right;
+    display: flex;
+    margin: 0%;
+    padding: 0%;
+    
+    
+}
+li, a{
+    list-style-type: none;
+    text-decoration: none;
+    margin: 10px;
+    color: black;
+    padding: 0;
+    font-family: Franklin Gothic Medium;
+    display: block;
+}
+a.active{
+    background-color: lightgrey;
+}
+li:hover{
+    background-color: lightgrey;
+}
+.top-main{
+    background-image: url(bulb.jpg);
+    height: 18rem;
+    text-align: center;
+}
+#examp{
+    height: 20px;
+}
+h1{
+    font-size: 3.8rem;
+    margin-left: 20px;
+    /* text-align: ; */
+    color: white;
+    /* margin: ; */
+}
+.text1{
+    font-size: 20px;
+    font-family: poppins;
+    color: white;
+    margin: 30px;
+    padding: 10px;
+}
+.btn{
+    margin: 40px;
+    width: 120px;
+    height: 38px;
+    background-color: orange;
+    border-radius: 10px;
+    border: none;
+}
+.btn:hover{
+    background-color: rgb(160, 119, 44);
+}
+.mid-main{
+    margin: 40px;
+    text-align: center;
+    font-family: sans-serif;
+}
+.sup{
+    font-size: 33px;
+    color: #A45C40;
+    font-family: montserrat;
+}
+.text2{
+    font-size: 23px;
+    font-weight: lighter;
+}
+.third-main{
+    border: 1px solid;
+    height: 12.1rem;
+    display: flex;
+}
+#Unleash{
+    background-image: url(greenbeans.jpg);
+    height: 12rem;
+    width: 27rem;
+    background-size: cover;
+    text-align: center;
+    font-size: 40px;
+    color: white; 
+    /*  */
+}
+#Synergize{
+    background-image: url(cocoa.jpg);
+    height: 12rem;
+    width: 26.5rem;
+    background-size: cover;
+    text-align: center;
+    font-size: 40px;
+    color: white;
+}
+#Procrastinate{
+    background-image: url(grape.jpg);
+    height: 12rem;
+    width: 26.5rem;
+    background-size: cover;
+    text-align: center;
+    font-size: 40px;
+    color: white;
+}
+#Unleash:hover, #Synergize:hover, #Procrastinate:hover{
+    border: 5px solid black;
+}
+.world{
+    text-align: center;
+    font-size: 30px;
+    font-family: montserrat;
+    color: #A45C40;
+    margin-top: 30px;
+}
+.container{
+    margin: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.img1{
+    width: 15rem;
+    margin: 10px;
+    padding: 10px;
+    margin-top: 0%;
+}
+.container1{
+    border: 1px solid black;
+    width: 16rem;
+    /* border-style: calc(1); */
+    border-radius: 4px;
+   
+}
+.img2{
+    width: 15rem;
+    margin: 10px;
+    padding: 10px;
+    margin-top: 0%;
+}
+.container2{
+    border: 1px solid black;
+    width: 16rem;
+    border-radius: 4px;
+}
+.img3{
+    width: 15rem;
+    margin: 10px;
+    padding: 10px;
+    margin-top: 0%;
+}
+.container3{
+    border: 1px solid black;
+    width: 16rem;
+    border-radius: 4px;
+}
+.img4{
+    width: 15rem;
+    margin: 10px;
+    padding: 10px;
+    margin-top: 0%;
+}
+.container4{
+    border: 1px solid black;
+    width: 16rem;
+    border-radius: 4px;
+}
+#light-brown{
+    margin-left: 20px;
+    font-family: montserrat;
+    color: #e46938;
+    font-weight: bold;
+    font-size: 18px;
+}
+p{
+    margin-left: 5px;
+    margin-right: 5px;
+    font-family: poppins;
+    font-weight: bolder;
+}
+.fifth-main{
+    margin: 20px;
+    text-align: center;
+}
+h3{
+    font-size: 30px;
+    font-family: montserrat;
+    color: #A45C40;
+}
+#big{
+    font-size: 20px;
+    text-align: center;
+}
+.service{
+ clip-path: ellipse();
+}
+.sixth-main{
+    text-align: center;
+}
+h2{
+    font-family: MONTSERRAT;
+    font-size: 30px;
+  font-weight: 1000;
+    color: #A45C40;
+}
+#map{
+    width: 1500px;
+    height: 400px;
+    background-size: cover;
+}
+
